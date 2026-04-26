@@ -1,0 +1,74 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+   font-style: normal;
+   background-image: url("Images/contact.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 96vh;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    background-color: #c28251;
+    border-radius: 40px;
+    margin:20px 10px;
+    padding: 0 10px;
+    box-shadow: 5px  10px 40px #696969 ;
+}
+header img{
+    width:70px;
+    margin:0 0 0 20px;
+    
+}
+header nav{
+    padding: 10px;
+}
+header nav a{
+    padding:5px 10px;
+    color:white;
+    text-decoration: none;
+    border-radius:15px;
+    font-family: sans-serif;
+}
+header nav a:hover{
+    background-color:#ca6702 ;
+}
+header nav button{
+    border:none;
+    color:white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius:15px;
+    font-family: lobster;
+}
+header nav button:hover{
+    cursor: pointer;    
+}
+main{
+    position: absolute;
+    top:45%;
+    left:20%;
+}
+main h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+main pre{
+    color:#fff;
+    font-size: 14px;
+    margin:0;
+    padding: 15px 0;
+}
+main p{
+    color:#fff;
+    font-size: 20px;
+    margin:0;
+}

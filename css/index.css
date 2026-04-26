@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    padding: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   background-image: url("Images/Background.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height:100vh;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    background-color: #c28251;
+    border-radius: 40px;
+    margin:20px 10px;
+    padding: 0 10px;
+    box-shadow: 5px  10px 40px #696969 ;
+}
+header img{
+    width:70px;
+    margin:0 0 0 20px;
+    
+}
+header nav{
+    padding: 10px;
+}
+header nav a{
+    padding:5px 10px;
+    color:white;
+    text-decoration: none;
+    border-radius:15px;
+    font-family: sans-serif;
+}
+header nav a:hover{
+    background-color:#ca6702 ;
+}
+header nav button{
+    border:none;
+    color:white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius:15px;
+    font-family: lobster;
+}
+header nav button:hover{
+    cursor: pointer;    
+}
+main{
+    border:none;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 20px 20px 30px #696969 ;
+    background-color: #c28251;
+    height: 350px;
+    width:340px;
+}
+main h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+main input{
+    width:80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px 0;
+    margin-left: 25px;
+    color: black;
+}
+main input:focus{
+    outline: none;
+}
+main button{
+    width:100px;
+    margin: 10px 0 0 120px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    font-family: lobster;
+    cursor: pointer;
+}
